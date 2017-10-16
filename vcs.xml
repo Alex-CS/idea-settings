@@ -7,7 +7,11 @@
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://github.com/redbeacon/hd-sem.git" />
+          <option name="url" value="https://github.com/redbeacon/local-dev.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/redbeacon/schedule-a-measure.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
