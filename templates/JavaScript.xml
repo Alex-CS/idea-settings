@@ -1,13 +1,20 @@
 <templateSet group="JavaScript">
-  <template name="fn" value="($PARAMS$) =&gt; {$END$}" description="Arrow Function" toReformat="false" toShortenFQNames="true">
-    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="fn" value="($PARAM$) =&gt; {$END$}" description="Inserts ES6 Arrow Function" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
     </context>
   </template>
-  <template name="data" value="data () {&#10;  return {&#10;    $END$,&#10;  };&#10;}," description="Vue Data Function" toReformat="false" toShortenFQNames="true">
+  <template name="ci" value="console.info($END$);" description="console.info" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="_imp" value="import _$func$ from 'lodash/$name$';" description="Lodash import" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="func" expression="" defaultValue="name" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
