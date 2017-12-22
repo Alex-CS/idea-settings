@@ -1,12 +1,11 @@
 <template>
-  
 </template>
 
 <script>
   export default {
-    name: '$NAME',
+    name: '$ComponentName',
   };
 </script>
 
-<style>
+<style lang="scss" scoped>
 </style>

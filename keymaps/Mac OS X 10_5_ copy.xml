@@ -1,20 +1,13 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
-  <action id="CodeCleanup">
-    <keyboard-shortcut first-keystroke="shift meta x" />
+  <action id="CompareClipboardWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta c" />
   </action>
-  <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction" />
+  <action id="context.load">
+    <keyboard-shortcut first-keystroke="ctrl meta z" />
   </action>
-  <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
-  </action>
-  <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-  </action>
-  <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
-  </action>
-  <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  <action id="context.save">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
 </keymap>
