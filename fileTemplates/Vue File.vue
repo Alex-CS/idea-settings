@@ -1,11 +1,12 @@
 <template>
+  
 </template>
 
 <script>
   export default {
-    name: '$ComponentName',
+    name: '$NAME',
   };
 </script>
 
-<style lang="scss" scoped>
+<style>
 </style>
