@@ -17,4 +17,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="test" value="test('should $description$', () =&gt; {$END$});" description="jest test statement" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
