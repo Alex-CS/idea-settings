@@ -12,6 +12,7 @@
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
   <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="100" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
