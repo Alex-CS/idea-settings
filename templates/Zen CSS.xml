@@ -1,5 +1,5 @@
 <templateSet group="Zen CSS">
-  <template name="dktools" value="@import &quot;~@techshed/design-kit/tools.scss&quot;;" description="import design-kit tools" toReformat="false" toShortenFQNames="true">
+  <template name="dktools" value="@import &quot;~@techshed/design-kit/tools&quot;;" description="import design-kit tools" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
