@@ -70,7 +70,7 @@
           <IdeaActionID>context.load</IdeaActionID>
           <ShortCut>'⌃⌘Z'</ShortCut>
           <Description>Load Context...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move...">
