@@ -14,7 +14,7 @@
           <IdeaActionID>Annotate</IdeaActionID>
           <ShortCut>'⌥⇧⌘A'</ShortCut>
           <Description>Annotate</Description>
-          <Count>6</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Commit...">
@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>45</Count>
+          <Count>49</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
