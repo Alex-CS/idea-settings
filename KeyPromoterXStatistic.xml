@@ -86,7 +86,7 @@
           <IdeaActionID>context.load</IdeaActionID>
           <ShortCut>'⌃⌘Z'</ShortCut>
           <Description>Load Context...</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move...">
@@ -182,7 +182,7 @@
           <IdeaActionID>Vcs.UpdateProject</IdeaActionID>
           <ShortCut>'⌘T'</ShortCut>
           <Description>Update Project</Description>
-          <Count>54</Count>
+          <Count>55</Count>
         </Item>
       </Statistic>
       <Statistic Action="Update Project...">
