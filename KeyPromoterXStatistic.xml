@@ -25,6 +25,14 @@
           <Count>82</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Compare with Clipboard">
+        <Item>
+          <IdeaActionID>CompareClipboardWithSelection</IdeaActionID>
+          <ShortCut>'⇧⌘C'</ShortCut>
+          <Description>Compare with Clipboard</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Copy">
         <Item>
           <IdeaActionID>$Copy</IdeaActionID>
@@ -102,7 +110,7 @@
           <IdeaActionID>NewScratchFile</IdeaActionID>
           <ShortCut>'⇧⌘N'</ShortCut>
           <Description>New Scratch File</Description>
-          <Count>5</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
@@ -126,7 +134,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>23</Count>
+          <Count>25</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
@@ -150,7 +158,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'⌥⌘Z'</ShortCut>
           <Description>Revert...</Description>
-          <Count>9</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show All Affected Files">
