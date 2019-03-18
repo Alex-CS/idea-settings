@@ -30,7 +30,7 @@
           <IdeaActionID>CompareClipboardWithSelection</IdeaActionID>
           <ShortCut>'⇧⌘C'</ShortCut>
           <Description>Compare with Clipboard</Description>
-          <Count>4</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy">
