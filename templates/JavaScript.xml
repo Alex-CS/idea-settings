@@ -1,30 +1,6 @@
 <templateSet group="JavaScript">
-  <template name="fn" value="($PARAMS$) =&gt; {$END$}" description="Arrow Function" toReformat="false" toShortenFQNames="true">
-    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="data" value="data () {&#10;  return {&#10;    $END$,&#10;  };&#10;}," description="Vue Data Function" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="if" value="if ($condition$) {&#10;  $END$&#10;}" description="if block" toReformat="false" toShortenFQNames="true">
-    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="test" value="test('should $description$', () =&gt; {$END$});" description="jest test statement" toReformat="false" toShortenFQNames="true">
-    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="log" value="console.$method$($END$);" description="console statement" toReformat="false" toShortenFQNames="true">
-    <variable name="method" expression="" defaultValue="log" alwaysStopAt="true" />
+  <template name="fn" value="($params$) =&gt; {$END$}" description="arrow function" toReformat="false" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
