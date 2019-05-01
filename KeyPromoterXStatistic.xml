@@ -110,7 +110,7 @@
           <IdeaActionID>NewScratchFile</IdeaActionID>
           <ShortCut>'⇧⌘N'</ShortCut>
           <Description>New Scratch File</Description>
-          <Count>10</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
@@ -182,7 +182,7 @@
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
           <ShortCut>'⌥⌘Z'</ShortCut>
           <Description>Revert...</Description>
-          <Count>36</Count>
+          <Count>37</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show All Affected Files">
