@@ -78,7 +78,7 @@
           <IdeaActionID>ActivateFindToolWindow</IdeaActionID>
           <ShortCut>'⌘3'</ShortCut>
           <Description>Find</Description>
-          <Count>14</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -270,7 +270,7 @@
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
           <ShortCut>'⌘9' or '⇧⌘9'</ShortCut>
           <Description>Version Control</Description>
-          <Count>47</Count>
+          <Count>49</Count>
         </Item>
       </Statistic>
     </option>
