@@ -1,21 +1,7 @@
 <templateSet group="Zen CSS">
-  <template name="dktools" value="@import &quot;~@techshed/design-kit/tools&quot;;" description="import design-kit tools" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="mx" value="margin-left: $VAL$;&#10;margin-right: $VAL$;" description="x-axis margins" toReformat="false" toShortenFQNames="true">
-    <variable name="VAL" expression="" defaultValue="&quot;auto&quot;" alwaysStopAt="true" />
+  <template name="d:g" value="display: grid;" description="display: grid" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-    </context>
-  </template>
-  <template name="pxa" value="padding-left: $VAL$;&#10;padding-right: $VAL$;" description="x-axis padding values" toReformat="true" toShortenFQNames="true">
-    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_PROPERTY_VALUE" value="true" />
     </context>
   </template>
 </templateSet>

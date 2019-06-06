@@ -1,15 +1,5 @@
 <templateSet group="Vue">
-  <template name="met" value="methods: {$END$}," description="Vue methods definition" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="com" value="computed: {$END$}," description="Vue computed properties" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JS_STATEMENT" value="false" />
-    </context>
+  <template name="vbase" value="&lt;template&gt;&#10; &lt;div&gt;&#10;&#10; &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;export default {&#10; $END$&#10;}&#10;&lt;/script&gt;&#10;&#10;&lt;style scoped&gt;&#10;&#10;&lt;/style&gt;" description="Vue single file component" toReformat="true" toShortenFQNames="true">
+    <context />
   </template>
 </templateSet>

@@ -1,16 +1,5 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
-  <action id="Annotate">
-    <keyboard-shortcut first-keystroke="shift meta alt a" />
-  </action>
-  <action id="CompareClipboardWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta c" />
-  </action>
-  <action id="CopyPaths" />
-  <action id="DatabaseView.CopyDdlAction" />
-  <action id="context.load">
-    <keyboard-shortcut first-keystroke="ctrl meta z" />
-  </action>
-  <action id="context.save">
-    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  <action id="Git.Reset.In.Log">
+    <mouse-shortcut keystroke="shift button1" />
   </action>
 </keymap>
