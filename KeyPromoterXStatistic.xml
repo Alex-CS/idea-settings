@@ -225,6 +225,14 @@
           <Count>14</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'Route Namespace Utility Functions'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'Route Namespace Utility Functions'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Revert...">
         <Item>
           <IdeaActionID>ChangesView.Revert</IdeaActionID>
