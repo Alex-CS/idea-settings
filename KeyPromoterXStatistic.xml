@@ -65,6 +65,14 @@
           <Count>7</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Configure Current File Analysis...">
+        <Item>
+          <IdeaActionID>PopupHector</IdeaActionID>
+          <ShortCut>'⌥⇧⌘H'</ShortCut>
+          <Description>Configure Current File Analysis...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Copy">
         <Item>
           <IdeaActionID>$Copy</IdeaActionID>
